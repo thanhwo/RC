@@ -39,7 +39,7 @@ int TCS3200Servo::detectColor() {
 }
 
 void TCS3200Servo::controlByColor() {
-    int color = random(0, 3); // Giả lập màu sắc ngẫu nhiên
+    int color = detectColor(); // Giả lập màu sắc ngẫu nhiên
     if (color == 0) {
         _servo.write(90);   // Đỏ
     } else if (color == 1) {
