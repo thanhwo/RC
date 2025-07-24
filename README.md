@@ -23,9 +23,11 @@ Dự án này sử dụng cảm biến màu TCS3200 để nhận diện màu s�
 ## Giải thích cấu trúc
 ### Thư viện
 lib
+```
 |-TCS3200Servo
     |-TCS3200Servo.h
     |-TCS3200Servo.cpp
+```
 ### Hàm main (sample)
 src
 |-main.cpp
