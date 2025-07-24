@@ -24,7 +24,7 @@ Dự án này sử dụng cảm biến màu TCS3200 để nhận diện màu s�
 
 1. **Clone dự án về máy:**
     ```sh
-    git clone https://github.com/<your-username>/testRC.git
+    git clone https://github.com/thanhwo/testRC.git
     cd testRC
     ```
 
