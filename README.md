@@ -37,6 +37,3 @@ Dự án này sử dụng cảm biến màu TCS3200 để nhận diện màu s�
 ## Thư viện sử dụng
 - [Servo](https://registry.platformio.org/libraries/arduino-libraries/Servo)
 - Thư viện TCS3200Servo tự viết (trong thư mục `lib/TCS3200Servo`)
-
-## Tác giả
-- Thanh Wo
