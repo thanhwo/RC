@@ -10,6 +10,6 @@ void setup() {
 
 void loop() {
     colorServo.readColor();
-    colorServo.controlByColor();
+    colorServo.detectColor();
     delay(100);
 }

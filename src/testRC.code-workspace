@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "testRC",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"ROS2.distro": "humble"
+	}
+}

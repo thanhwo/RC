@@ -38,15 +38,15 @@ int TCS3200Servo::detectColor() {
     return -1; // UNKNOWN
 }
 
-void TCS3200Servo::controlByColor() {
-    int color = random(0, 3); // Giả lập màu sắc ngẫu nhiên
-    if (color == 0) {
-        _servo.write(90);   // Đỏ
-    } else if (color == 1) {
-        _servo.write(180);  // Xanh lá
-    } else if (color == 2) {
-        _servo.write(0);    // Vàng
-    } else {
-        _servo.write(90);   // Không xác định
-    }
-}
+// void TCS3200Servo::controlByColor() {
+//     int color = detectColor(); // Giả lập màu sắc ngẫu nhiên
+//     if (color == 0) {
+//         _servo.write(90);   // Đỏ
+//     } else if (color == 1) {
+//         _servo.write(180);  // Xanh lá
+//     } else if (color == 2) {
+//         _servo.write(0);    // Vàng
+//     } else {
+//         _servo.write(90);   // Không xác định
+//     }
+// }

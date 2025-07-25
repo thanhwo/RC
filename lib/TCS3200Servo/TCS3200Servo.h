@@ -10,12 +10,11 @@ public:
     void begin();
     void readColor();
     void controlByColor();
-
+    int detectColor(); 
 private:
     uint8_t _s0, _s1, _s2, _s3, _outPin, _servoPin;
     int _red, _green, _blue;
     Servo _servo;
-    int detectColor();
 };
 
 #endif
